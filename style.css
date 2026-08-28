@@ -1,0 +1,21 @@
+/* Общие стили для сайта */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+table {
+border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: document
+}

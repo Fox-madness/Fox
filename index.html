@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+ <title>Моя персональная веб-страница</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="./Рисунок1.png" alt="Логотип" class="logo">
+      <h1>Моя первая веб-страница</h1>
+    </div>
+  </header>
+  
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li><a href="#home">Главная</a></li>
+      <li><a href="#about">О себе</a></li>
+      <li><a href="#hobbies">Увлечения</a></li>
+      <li><a href="#books">Книги</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="home">
+      <h2>Моя первая веб-страница</h2>
+    </section>
+
+    <section id="about">
+      <h2>О себе</h2>
+      <p>Меня зовут Дарья, мне 25.</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Мои увлечения</h2>
+      <p>Обожаю читать книги, вязать, вышивать и рисовать по номерам. Вообще очень люблю творческую работу.</p>
+      <ul>
+        <li>Читать около 100 книг в год</li>
+        <li>Вязать игрушки</li>
+        <li>Рисовать картинв по номерам</li>
+        <li>Ходить в зал</li>
+      </ul>
+    </section>
+    <section id="mythology">
+      <h2>Мифология</h2>
+      <img src="./дерево Иггдрасиль.jpeg" alt="Дерево Иггдрасиль"><br>
+      <a href="https://silvermaproject.ru/articles/mirovoe-drevo-iggdrasil/?ysclid=mtdeu5s5sz112942323">Ссылка на знания о дереве Иггдрасиль</a><br>
+      <audio controls>
+        <source src="./дитя зимы - ШКВАЛЬНАЯ.mp3" type="audio/mp3">
+        Ваш браузер не поддерживает аудио.
+      </audio>
+    </section>
+
+    <section id="schedule">
+      <h2>Распорядок дня</h2>
+      <table>
+        <caption>Мой распорядок дня</caption>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+          <th>8</th>
+        </tr>
+        <tr>
+          <td>Проснуться</td> 
+          <td>Умыться</td>
+          <td>Позавтракать</td>
+          <td>Поиграть с кошкой</td>
+          <td>Сделать обед</td>
+          <td>Почитать</td>
+          <td>Сходить в зал</td>
+          <td>Лечь спать</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="books">
+      <h2>Мои любимые книги</h2>
+      <ol>
+        <li>Отель у погибшего альпиниста</li>
+        <li>Заводной апельсин</li>
+        <li>О дивный новый мир</li>
+        <li>Понедельник начинается в субботу</li>
+        <li>Эрагон</li>
+      </ol>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <p>почта: darya.stefan@yandex.ru. 
+ Номер телефона: 8915*******</p>
+      <form method="post">
+        <div>
+          <label for="name">Введите ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя" required>
+        </div>
+      </form>
+      <form method="post">
+        <div>
+          <label for="email">Введите вашу почту:</label>
+          <input type="email" id="email" placeholder="Введите почту" required>
+        </div>
+      </form>
+      <form>
+        <div>
+          <label><input type="radio" name="gender" value="ж"> Женский</label>
+          <label><input type="radio" name="gender" value="м"> Мужской</label>
+        </div>
+      </form>
+      <form>
+        <div>
+          <label><input type="checkbox" required> Я согласен с условиями</label>
+        </div>
+        <div>
+          <label for="country">Выберите страну:</label>
+          <select id="country">
+            <option>Россия</option>
+            <option>США</option>
+            <option>Китай</option>
+          </select>
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <section id="info">
+      <h2>Что такое HTML?</h2>
+      <p><strong>HTML (HyperText Markup Language — язык гипертекстовой разметки) — это основа для создания веб-страниц. Его главная задача — структурировать содержимое, чтобы браузер мог правильно отобразить его на экране.</strong></p>
+      <p><em>HTML (HyperText Markup Language)</em> — это язык разметки, а не язык программирования. Его главная задача — структурировать контент на веб-странице: определять, где находятся заголовки, абзацы, изображения, ссылки и другие элементы. 
+ Он задаёт каркас документа, но не управляет его поведением или логикой.</p>
+    </section>
+  </main>
+<footer>
+  <h4>Контакты</h4>
+  <p>почта: darya.stefan@yandex.ru. 
+ Номер телефона: 8915*******</p>
+  <p>&copy; 2023 Моя персональная веб-страница. Все права защищены.</p>
+</footer>
+</body>
+</html>
